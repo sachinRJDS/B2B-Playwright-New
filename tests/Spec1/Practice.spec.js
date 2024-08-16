@@ -1,6 +1,7 @@
 const{test,expect}=require("@playwright/test")
 
 test("Practice Test",async({page})=>{
+    console.log("added")
     await page.locator("").allTextContents()
     page.on("dialog",async dialog=>{
         dialog.message()
