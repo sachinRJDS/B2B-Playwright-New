@@ -1,0 +1,23 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "DropDownCase": "npx playwright test HandlingUploadFiles.spec.js --headed",
+    "DifferentEnv": "cross-env $env:test_env='develop'; npx playwright test DemoWithENVFile.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.46.0",
+    "@types/node": "^22.0.0",
+    "allure-playwright": "^3.0.0-beta.10",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "exceljs": "^4.4.0"
+  }
+}
