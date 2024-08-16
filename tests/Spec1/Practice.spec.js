@@ -11,9 +11,5 @@ test("Practice Test",async({page})=>{
     await page.locator(" ").frameLocator()
     const f=await page.frame()
     f.childFrames[1]
-
-       await page.locator(" ").frameLocator()
-    const f=await page.frame()
-    f.childFrames[1]
 })
 console.log("Hi")
