@@ -8,8 +8,6 @@ test("Practice Test",async({page})=>{
         dialog.accept()
         dialog.dismiss()
     })
-
-    await page.frames()
     await page.locator(" ").frameLocator()
     const f=await page.frame()
     f.childFrames[1]
