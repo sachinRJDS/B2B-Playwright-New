@@ -14,3 +14,4 @@ test("Practice Test",async({page})=>{
     const f=await page.frame()
     f.childFrames[1]
 })
+console.log("Hi")
