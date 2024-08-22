@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "DropDownCase": "npx playwright test HandlingUploadFiles.spec.js --headed",
-    "DifferentEnv": "cross-env $env:test_env='develop'; npx playwright test DemoWithENVFile.spec.js"
+    "DifferentEnv": "cross-env $env:test_env='develop'; npx playwright test DemoWithENVFile.spec.js",
+    "regression":"npx playwright test tests/Spec/DemoWithENVFile.spec.js tests/Spec/HandlingDoubleClick.spec.js tests/Spec/HandlingDragAndDrop.spec.js --headed --project=chromium"
   },
   "keywords": [],
   "author": "",
