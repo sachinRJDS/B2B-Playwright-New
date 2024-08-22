@@ -37,6 +37,8 @@ test("frame inside the another frame",async({page})=>{
     await childFrames[0].locator("//*[@id='i5']/div[3]/div").check()
     await page.waitForTimeout(5000)
 
+    await page.frames()//it will return all the frames that are present in the current page
+
 
 
     await page.waitForTimeout(5000)
