@@ -1,7 +1,7 @@
 const {test,expect}=require("@playwright/test")
-import { LoginPage } from "./POM Classes/LoginPagePOM"
-import { HomePage } from "./POM Classes/HomePage"
-import { CartPage } from "./POM Classes/CartPage"
+// import { LoginPage } from "../GenericUtility/"
+// import { HomePage } from "./POM Classes/HomePage"
+// import { CartPage } from "./POM Classes/CartPage"
 
 test("Login to Application",async({page})=>{
 //Login

@@ -9,7 +9,6 @@ class LoginPage{
         this.loginButton="//button[text()='Log in']"
         
     }
-
     async gotoLoginPage(params) {
         await this.page.goto("https://www.demoblaze.com/index.html")
     }

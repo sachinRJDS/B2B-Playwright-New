@@ -1,6 +1,7 @@
 const {test,expect}=require("@playwright/test")
 test("Using Select Tag",async({page})=>{
     await page.goto("https://demo.nopcommerce.com/register?returnUrl=%2F")
+    
 
     //Handling Drop Downs
     await page.locator("select[name=DateOfBirthDay]").selectOption({label:"3"}) //label/visibleText
