@@ -1,0 +1,11 @@
+{
+  bookingid: 1549,
+  booking: {
+    firstname: 'Alberto',
+    lastname: 'Reynolds',
+    totalprice: 673,
+    depositpaid: true,
+    bookingdates: { checkin: '0NaN-aN-aN', checkout: '0NaN-aN-aN' },
+    additionalneeds: 'Breakfast'
+  }
+}

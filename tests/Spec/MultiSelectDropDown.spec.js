@@ -1,7 +1,8 @@
 const {test,expect}=require("@playwright/test")
-test.skip('MultiSelectDropDown', async({page}) => {
+test.only('MultiSelectDropDown', async({page}) => {
     await page.goto("https://testautomationpractice.blogspot.com/")
     await page.selectOption("#colors",['Red','Green'])
+
     const option1=await page.locator("#colors").textContent()
     console.log(option1)
     await expect(await page.locator('#colors option')).toHaveCount(5)
@@ -38,7 +39,7 @@ test.skip('Auto-Suggestion DropDown',async ({page}) => {
     await page.close()
 });
 
-test.only("Hidden DropDown",async({page})=>{
+test.skip("Hidden DropDown",async({page})=>{
     await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
     await page.fill("input[name=username]","Admin")
     await page.fill("input[name=password]","admin123")

@@ -1,0 +1,8 @@
+{
+  firstname: 'Gowtham',
+  lastname: 'Doddi',
+  totalprice: 111,
+  depositpaid: true,
+  bookingdates: { checkin: '2024-01-01', checkout: '2024-01-01' },
+  additionalneeds: 'Breakfast'
+}

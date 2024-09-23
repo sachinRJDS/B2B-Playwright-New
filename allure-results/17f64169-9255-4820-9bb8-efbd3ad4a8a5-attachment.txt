@@ -1,0 +1,11 @@
+{
+  bookingid: 1566,
+  booking: {
+    firstname: 'Ron',
+    lastname: 'Kertzmann-Koelpin',
+    totalprice: 99,
+    depositpaid: true,
+    bookingdates: { checkin: '0NaN-aN-aN', checkout: '0NaN-aN-aN' },
+    additionalneeds: 'Breakfast'
+  }
+}

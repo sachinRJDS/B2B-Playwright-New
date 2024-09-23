@@ -6,19 +6,21 @@
   "scripts": {
     "DropDownCase": "npx playwright test HandlingUploadFiles.spec.js --headed",
     "DifferentEnv": "cross-env $env:test_env='develop'; npx playwright test DemoWithENVFile.spec.js",
-    "regression":"npx playwright test tests/Spec/DemoWithENVFile.spec.js tests/Spec/HandlingDoubleClick.spec.js tests/Spec/HandlingDragAndDrop.spec.js --headed --project=chromium"
+    "regression": "npx playwright test tests/Spec/DemoWithENVFile.spec.js tests/Spec/HandlingDoubleClick.spec.js tests/Spec/HandlingDragAndDrop.spec.js --headed --project=chromium"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.46.0",
+    "@faker-js/faker": "^9.0.1",
+    "@playwright/test": "^1.46.1",
     "@types/node": "^22.0.0",
     "allure-playwright": "^3.0.0-beta.10",
     "dotenv": "^16.4.5"
   },
   "dependencies": {
     "cross-env": "^7.0.3",
-    "exceljs": "^4.4.0"
+    "exceljs": "^4.4.0",
+    "luxon": "^3.5.0"
   }
 }

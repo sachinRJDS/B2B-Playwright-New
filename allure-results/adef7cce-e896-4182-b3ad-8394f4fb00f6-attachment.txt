@@ -1,0 +1,13 @@
+{
+  bookingid: 1741,
+  booking: {
+    firstname: 'Playwright testing',
+    lastname: 'playwright api testing',
+    totalprice: 111,
+    depositpaid: true,
+    bookingdates: { checkin: '2024-01-01', checkout: '2024-01-01' },
+    additionalneeds: 'Breakfast'
+  }
+}
+2024-01-01
+1727076864733

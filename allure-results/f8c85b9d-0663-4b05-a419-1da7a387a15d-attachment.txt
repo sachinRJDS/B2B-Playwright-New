@@ -1,0 +1,7 @@
+token number :3843550ea46b38e
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 4246,
+  [Symbol(trigger_async_id_symbol)]: 3938,
+  [Symbol(kResourceStore)]: undefined
+}
